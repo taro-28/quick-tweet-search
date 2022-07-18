@@ -1,0 +1,23 @@
+{
+  "name": "Quick Tweet Search",
+  "manifest_version": 3,
+  "version": "0.1",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+S",
+        "mac": "Ctrl+S"
+      },
+      "description": "Run extension."
+    }
+  }
+}
