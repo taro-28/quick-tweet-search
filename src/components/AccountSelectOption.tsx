@@ -1,4 +1,4 @@
-import { Avatar, Flex, Text } from "@chakra-ui/react";
+import { Avatar, Box, Flex, Text } from "@chakra-ui/react";
 import { FC } from "react";
 import { MdVerified } from "react-icons/md";
 
@@ -24,10 +24,15 @@ export const AccountSelectOption: FC<Props> = ({
             fontWeight="bold"
             fontSize="sm"
             marginRight={verified ? "0.5" : ""}
+            noOfLines={1}
           >
             {name}
           </Text>
-          {verified && <MdVerified color="00acee" />}
+          {verified && (
+            <Box>
+              <MdVerified color="00acee" />
+            </Box>
+          )}
         </Flex>
         <Text fontSize="sm" color="GrayText">
           @{screenName}
