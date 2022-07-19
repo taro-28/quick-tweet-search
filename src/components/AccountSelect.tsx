@@ -25,9 +25,7 @@ const _getUsers = (
   if (!value) return;
 
   axios
-    .get(
-      `https://d0ygyd78mb.execute-api.ap-northeast-1.amazonaws.com/default/twitterUserSearch?keyword=${value}`
-    )
+    .get(`https://api.taro28.com/twitterUserSearch?keyword=${value}`)
     .then((response: { data: User[] }) =>
       callback(
         response.data.map((user) => ({
