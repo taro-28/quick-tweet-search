@@ -26,7 +26,9 @@ export const AccountSelect: FC<Props> = ({ control, defaultOptions }) => {
     if (!value) return;
 
     axios
-      .get(`https://api.taro28.com/twitterUserSearch?keyword=${value}`)
+      .get(
+        `https://d0ygyd78mb.execute-api.ap-northeast-1.amazonaws.com/default/twitterUserSearch?keyword=${value}`
+      )
       .then((response: { data: User[] }) =>
         callback(
           response.data.map((user) => ({
