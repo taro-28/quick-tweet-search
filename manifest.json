@@ -1,10 +1,16 @@
 {
   "name": "Quick Tweet Search",
   "manifest_version": 3,
-  "version": "0.1",
-  "permissions": ["activeTab", "scripting"],
+  "version": "1.0.0",
+  "description": "Extension to quickly search tweets by Twitter user.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
   "action": {
+    "default_icon": "icon/icon16.png",
     "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "assets/index.8c7cd030.js"
   },
   "icons": {
     "16": "icon/icon16.png",
