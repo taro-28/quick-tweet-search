@@ -53,6 +53,7 @@ export const Body: FC = memo(() => {
       JSON.stringify(nextLastSearchedUsers)
     );
   };
+
   return (
     <Box as="form" onSubmit={handleSubmit(handleSearch)}>
       <Box mb="2">

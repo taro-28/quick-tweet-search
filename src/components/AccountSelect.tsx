@@ -52,6 +52,8 @@ export const AccountSelect: FC<Props> = ({ control, defaultOptions }) => {
           placeholder="Twitter Username"
           isClearable
           cacheOptions
+          escapeClearsValue
+          openMenuOnClick
           defaultOptions={defaultOptions}
           formatOptionLabel={(option) => (
             <AccountSelectOption
