@@ -12,6 +12,11 @@ Chrome Extension to quickly search Tweet by Twitter user
 
 <img width="640" alt="スクリーンショット 2022-07-20 1 38 24" src="https://user-images.githubusercontent.com/66539019/180346562-0f304974-54be-4037-bb20-938cbe0adf0a.png">
 
+## Feature
+-  Start by Shortcut
+-  Lightweight user search
+-  History of searched users
+
 ## Setup
 
 ```shell
