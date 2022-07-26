@@ -2,6 +2,8 @@
 
 Chrome Extension to quickly search Tweet by Twitter user
 
+https://chrome.google.com/webstore/detail/quick-tweet-search/hdkkckfalkjiojdncobdbapmfecmlnbi?hl=ja&authuser=0
+
 ## Usage
 
 **Select Twitter user and Input search words**
